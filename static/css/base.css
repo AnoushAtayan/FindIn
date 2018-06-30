@@ -1,21 +1,27 @@
 body{
-		font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../images/pink_rice.png);
 	}
+
 h3 {
     color:#fff ;
 }
+
 .form-control {
     box-shadow: none;
     border-radius: 4px;
     border-color: #dfe3e8;
 }
+
 .form-control:focus {
     border-color: rgba(252,211,251,0.87);
     box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
+
 .navbar-header.col {
     padding: 0 !important;
 }
+
 .navbar {
     background: rgba(110,46,81,0.87);
     padding-left: 16px;
@@ -23,15 +29,18 @@ h3 {
     border-bottom: 1px solid #dfe3e8;
     border-radius: 0;
 }
+
 .navbar .navbar-brand {
    font-family: 'Poller One', cursive;
     font-size: 35px;
     padding-left: 200px;
 }
+
 .navbar .navbar-brand b {
     font-weight: bold;
     color: rgba(252,211,251,0.87);
 }
+
 .navbar ul.nav li a {
     color: #999;
     font-family: 'Roboto', sans-serif;
@@ -41,13 +50,16 @@ h3 {
     border-radius: 0;
     margin: 13px;
 }
+
 .navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
     color: rgba(252,211,251,0.87) !important;
 }
+
 .navbar ul.nav li.active > a, .navbar ul.nav li.open > a {
     color: rgba(252,211,251,0.87) !important;
     background: transparent !important;
 }
+
 .navbar .form-inline .input-group-addon {
     box-shadow: none;
     border-radius: 2px 0 0 2px;
@@ -55,9 +67,11 @@ h3 {
     border-color: #dfe3e8;
     font-size: 16px;
 }
+
 .navbar .form-inline i {
     font-size: 16px;
 }
+
 .navbar .form-inline .btn {
     border-radius: 2px;
     color: #fff;
@@ -65,91 +79,56 @@ h3 {
     background: rgba(252,211,251,0.87);
     outline: none;
 }
+
 .navbar .form-inline .btn:hover, .navbar .form-inline .btn:focus {
     border-color: rgba(252,211,251,0.87);
     background: rgba(252,211,251,0.87);
 }
+
 .navbar .search-form {
     display: inline-block;
     padding-top: 13px;
     padding-left: 60px;
 }
+
 .navbar .search-form .btn {
     margin-left: 4px;
 }
+
 .navbar .search-form .form-control {
     border-radius: 2px;
 }
+
 .navbar .login-form .input-group {
     margin-right: 4px;
     float: left;
 }
+
 .navbar .login-form .form-control {
     max-width: 158px;
     border-radius: 0 2px 2px 0;
 }
+
 .navbar .navbar-right .dropdown-toggle::after {
     display: none;
 }
+
 .navbar .dropdown-menu {
     border-radius: 1px;
     border-color: #e5e5e5;
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
 }
+
 .navbar .dropdown-menu li a {
     padding: 6px 20px;
 }
+
 .navbar .navbar-right .dropdown-menu {
     width: 505px;
     padding: 20px;
     left: auto;
     right: 0;
     font-size: 14px;
-}
-.card-header {
-    background: rgba(110,46,81,0.87) ;
-}
-
-
-
-.btn-facebook {
-    width: 200px;
-    background-color: #405D9D;
-    color: #fff;
-
-}
-.btn-twitter {
-    width: 180px;
-    background-color: #42AEEC;
-    color: #fff;
-
-}
-
-.divider-text {
-    position: relative;
-    text-align: center;
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-.divider-text span {
-    padding: 7px;
-    font-size: 12px;
-    position: relative;
-    z-index: 2;
-}
-.divider-text:after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    border-bottom: 1px solid #ddd;
-    top: 55%;
-    left: 0;
-    z-index: 1;
-}
-
-.btn-custom{
-    background-color: rgba(252,211,251,0.87);
-    color:#999 ;
 }
 
 #navbarCollapse {
