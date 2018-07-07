@@ -117,18 +117,16 @@ h3 {
     border-radius: 1px;
     border-color: #e5e5e5;
     box-shadow: 0 2px 8px rgba(0,0,0,.05);
-}
-
-.navbar .dropdown-menu li a {
-    padding: 6px 20px;
-}
-
-.navbar .navbar-right .dropdown-menu {
-    width: 505px;
+    width: 300px;
     padding: 20px;
     left: auto;
     right: 0;
     font-size: 14px;
+
+}
+
+.navbar .dropdown-menu li a {
+    padding: 6px 20px;
 }
 
 #navbarCollapse {
